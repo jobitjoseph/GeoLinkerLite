@@ -1,4 +1,4 @@
-# GeoLinkerLite
+# GeoLinker Lite
 ![License](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Platforms](https://img.shields.io/badge/Platforms-Arduino%20Uno%20R3%20%7C%20Arduino%20Nano%20%7C%20AVR-green)
 ![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen)
