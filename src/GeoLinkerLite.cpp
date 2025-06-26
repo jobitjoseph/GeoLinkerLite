@@ -1,5 +1,5 @@
 /* 
- * GeoLinkerLite Library
+ * GeoLinker Lite Library
  * Copyright (C) 2025 Jobit Joseph, Semicon Media Pvt Ltd (Circuit Digest)
  * Author: Jobit Joseph
  * Project: GeoLinkerLite Cloud API Library
