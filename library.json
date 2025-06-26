@@ -1,0 +1,44 @@
+{
+  "name": "GeoLinker Lite",
+  "version": "1.0.0",
+  "description": "Lightweight GPS tracking library with GSM data transmission for Arduino. Optimized for low-memory devices like Arduino Uno R3 and Nano with power-efficient operation.",
+  "keywords": "gps, geolocation, gsm, sim800l, uno, nano, avr, low-memory, eeprom, tracking",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Circuit-Digest/GeoLinkerLite.git"
+  },
+  "authors": [
+    {
+      "name": "Jobit Joseph",
+      "email": "jobitjoseph1@gmail.com",
+      "url": "https://github.com/jobitjoseph",
+      "maintainer": true
+    },
+    {
+      "name": "Circuit Digest",
+      "email": "contact@circuitdigest.com",
+      "url": "https://www.circuitdigest.com",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://www.circuitdigest.cloud/geolinker",
+  "frameworks": "arduino",
+  "platforms": [
+    "atmelavr"
+  ],
+  "dependencies": [
+    {
+      "name": "SoftwareSerial",
+      "platforms": ["atmelavr"],
+      "version": ">=1.0.0"
+    }
+  ],
+  "export": {
+    "exclude": [
+      "tests",
+      "examples",
+      "docs"
+    ]
+  }
+}

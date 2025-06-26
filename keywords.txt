@@ -1,0 +1,83 @@
+/* 
+ * GeoLinkerLite Library
+ * Copyright (C) 2025 Jobit Joseph, Semicon Media Pvt Ltd (Circuit Digest)
+ * Author: Jobit Joseph
+ * Project: GeoLinkerLite Cloud API Library
+ *
+ * Licensed under the MIT License
+ * You may not use this file except in compliance with the License.
+ * 
+ * You may obtain a copy of the License at:
+ * https://opensource.org/license/mit/
+ * 
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software (the "Software") and associated documentation files, to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, subject to the following additional conditions:
+
+ * 1. All copies or substantial portions must retain:  
+ *    - The original copyright notice  
+ *    - A prominent statement crediting the original author/creator  
+
+ * 2. Modified versions must:  
+ *    - Clearly mark the changes as their own  
+ *    - Preserve all original credit notices
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+GeoLinkerLite	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+begin	KEYWORD2
+run	KEYWORD2
+setResetPin	KEYWORD2
+setGSMPins	KEYWORD2
+setModemAPN	KEYWORD2
+setAPIKey	KEYWORD2
+setDeviceID	KEYWORD2
+setMaxRetries	KEYWORD2
+setDebugLevel	KEYWORD2
+setTimeOffset	KEYWORD2
+parseNMEA	KEYWORD2
+handleGPSMode	KEYWORD2
+handleGSMMode	KEYWORD2
+saveGPSDataToEEPROM	KEYWORD2
+readGPSDataFromEEPROM	KEYWORD2
+clearEEPROMData	KEYWORD2
+writeStringWithLengthToEEPROM	KEYWORD2
+readStringWithLengthFromEEPROM	KEYWORD2
+modemSendAT	KEYWORD2
+checkNetworkRegistration	KEYWORD2
+checkGprsContext	KEYWORD2
+modemHttpPost	KEYWORD2
+debugPrint	KEYWORD2
+debugPrint_P	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+DEBUG_NONE	LITERAL1
+DEBUG_BASIC	LITERAL1
+DEBUG_VERBOSE	LITERAL1
+GPS_READY_FLAG	LITERAL1
+EEPROM_FLAG_ADDR	LITERAL1
+EEPROM_LAT_ADDR	LITERAL1
+EEPROM_LON_ADDR	LITERAL1
+EEPROM_TIME_ADDR	LITERAL1
+LAT_STR_LENGTH	LITERAL1
+LON_STR_LENGTH	LITERAL1
+TIME_STR_LENGTH	LITERAL1
+GPS_BUFFER_SIZE	LITERAL1
