@@ -29,7 +29,6 @@
   ],
   "dependencies": [
     {
-      "name": "SoftwareSerial",
       "platforms": ["atmelavr"],
       "version": ">=1.0.0"
     }
