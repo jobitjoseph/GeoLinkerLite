@@ -1,6 +1,6 @@
 {
   "name": "GeoLinker Lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Lightweight GPS tracking library with GSM data transmission for Arduino. Optimized for low-memory devices like Arduino Uno R3 and Nano with power-efficient operation.",
   "keywords": "gps, geolocation, gsm, sim800l, uno, nano, avr, low-memory, eeprom, tracking",
   "repository": {
