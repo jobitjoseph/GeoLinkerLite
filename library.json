@@ -29,7 +29,6 @@
   ],
   "dependencies": [
     {
-      "platforms": ["atmelavr"],
       "version": ">=1.0.0"
     }
   ],
