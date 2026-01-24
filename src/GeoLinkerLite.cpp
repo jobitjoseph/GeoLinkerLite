@@ -425,7 +425,7 @@ bool GeoLinkerLite::modemHttpPost(const String& json, int& httpStatus, String& h
     delay(50); // Allow time for prompt
     
     String crlf = String(char(13)) + String(char(10));
-    _modemSerial->print("POST /geolinker HTTP/1.1"); _modemSerial->print(crlf);
+    _modemSerial->print("POST /api/v1/geolinker HTTP/1.1"); _modemSerial->print(crlf);
     _modemSerial->print("Host: www.circuitdigest.cloud"); _modemSerial->print(crlf);
     _modemSerial->print("Authorization: "); _modemSerial->print(_apiKey); _modemSerial->print(crlf);
     _modemSerial->print("Content-Type: application/json"); _modemSerial->print(crlf);
